@@ -10,6 +10,14 @@ git clone git@github.com:shotatanakait/cursor.git
 ln -s ~/.config/cursor/settings.json ~/Library/Application\ Support/Cursor/User/settings.json
 ln -s ~/.config/cursor/keybindings.json ~/Library/Application\ Support/Cursor/User/keybindings.json
 ```
+
+## Unset symlink (Option)
+
+```sh
+unlink ~/Library/Application\ Support/Cursor/User/settings.json
+unlink ~/Library/Application\ Support/Cursor/User/keybindings.json
+```
+
 ## Used plugins
 
 #### Appearance
