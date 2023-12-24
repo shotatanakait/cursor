@@ -96,5 +96,12 @@
       "commands": ["extension.toggleBool"]
     }
   ],
-  "unsaved-files.viewOnExplorer.enabled": true
+  // Unsave
+  "unsaved-files.viewOnExplorer.enabled": true,
+  // Git
+  "workbench.colorCustomizations": {
+    "editorGutter.addedBackground": "#60aa60",
+    "editorGutter.modifiedBackground": "#668cdd",
+    "editorGutter.deletedBackground": "#ee3300"
+  }
 }
