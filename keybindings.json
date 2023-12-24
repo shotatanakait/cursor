@@ -1,16 +1,16 @@
 // Place your key bindings in this file to override the defaults
 [
   // Tab
-  {
-    "key": "ctrl+l",
-    "command": "workbench.action.nextEditor",
-    "when": "!terminalFocus && !foldersViewVisible"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "workbench.action.previousEditor",
-    "when": "!terminalFocus && !foldersViewVisible"
-  },
+  // {
+  //   "key": "ctrl+l",
+  //   "command": "workbench.action.nextEditor",
+  //   "when": "!terminalFocus && !foldersViewVisible"
+  // },
+  // {
+  //   "key": "ctrl+h",
+  //   "command": "workbench.action.previousEditor",
+  //   "when": "!terminalFocus && !foldersViewVisible"
+  // },
   // Suggestion
   { "key": "ctrl+j",
     "command": "selectNextSuggestion",
@@ -120,7 +120,17 @@
   {
     "key": "ctrl+h",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    "when": "!editorFocus"
+  },
+  // Terminal
+  {
+    "key": "ctrl+w j",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  { "key": "ctrl+w k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   },
   // Search
   {
