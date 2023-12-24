@@ -7,11 +7,16 @@ git clone git@github.com:shotatanakait/cursor.git
 ## Set symlink
 
 ```sh
+# Option
+mkdir ~/Library/Application\ Support/Cursor/User/bk
+mv ~/Library/Application\ Support/Cursor/User/settings.json ~/Library/Application\ Support/Cursor/User/bk/settings.json
+mv ~/Library/Application\ Support/Cursor/User/keybindings.json ~/Library/Application\ Support/Cursor/User/bk/keybindings.json
+
 ln -s ~/.config/cursor/settings.json ~/Library/Application\ Support/Cursor/User/settings.json
 ln -s ~/.config/cursor/keybindings.json ~/Library/Application\ Support/Cursor/User/keybindings.json
 ```
 
-## Unset symlink (Option)
+## Unset symlink (Reset symlink)
 
 ```sh
 unlink ~/Library/Application\ Support/Cursor/User/settings.json
