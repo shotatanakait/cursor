@@ -98,6 +98,16 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
+    "key": "m",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "Enter",
+    "command": "filesExplorer.openFilePreserveFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
     "key": "d",
     "command": "deleteFile",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
