@@ -1,0 +1,100 @@
+{
+  // Basic
+  "workbench.sideBar.location": "right",
+  "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Everforest Dark",
+  "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "workbench.editor.showTabs": "single",
+  "extensions.ignoreRecommendations": false,
+  "editor.suggest.insertMode": "replace",
+  "explorer.confirmDelete": false,
+  // Yank
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(153, 204, 51, 0.3)",
+  "vim.highlightedyank.textColor": "#ffffff",
+  // Tab
+  "editor.tabSize": 2,
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "files.associations": {
+    "*.module": "php"
+  },
+
+  // "editor.formatOnPaste": true,
+  // "editor.formatOnSave": true,
+  // "files.trimTrailingWhitespace": true,
+  // "files.trimFinalNewlines": true,
+
+  "[javascript][typescript][react][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.snippetSuggestions": "top"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Zen
+  "window.zoomLevel": 1,
+  "zenMode.centerLayout": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.showTabs": "single",
+  "zenMode.hideLineNumbers": false,
+  // Vim
+  "workbench.settings.editor": "json",
+  "vim.leader": "<space>",
+  "vim.foldfix": true,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":q!"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": [":x!"]
+    },
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "V", "G"]
+    },
+    {
+      // "before": ["<leader>", "k"],
+      "before": ["<C-i>"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["<leader>", "c", "c"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "commands": ["extension.toggleBool"]
+    }
+  ],
+  "unsaved-files.viewOnExplorer.enabled": true
+}
