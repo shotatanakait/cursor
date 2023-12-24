@@ -4,12 +4,12 @@
   {
     "key": "ctrl+l",
     "command": "workbench.action.nextEditor",
-    "when": "!terminalFocus"
+    "when": "!terminalFocus && !foldersViewVisible"
   },
   {
     "key": "ctrl+h",
     "command": "workbench.action.previousEditor",
-    "when": "!terminalFocus"
+    "when": "!terminalFocus && !foldersViewVisible"
   },
   // Suggestion
   { "key": "ctrl+j",
@@ -111,6 +111,16 @@
     "key": "d",
     "command": "deleteFile",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "editorFocus && foldersViewVisible"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   // Search
   {
