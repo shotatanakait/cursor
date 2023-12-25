@@ -122,16 +122,6 @@
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "!editorFocus"
   },
-  // Terminal
-  {
-    "key": "ctrl+w j",
-    "command": "workbench.action.terminal.focus",
-    "when": "editorTextFocus"
-  },
-  { "key": "ctrl+w k",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus"
-  },
   // Search
   {
     "key": "ctrl+f",
