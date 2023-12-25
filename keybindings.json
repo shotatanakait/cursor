@@ -120,17 +120,7 @@
   {
     "key": "ctrl+h",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "!editorFocus"
-  },
-  // Terminal
-  {
-    "key": "ctrl+w j",
-    "command": "workbench.action.terminal.focus",
-    "when": "editorTextFocus"
-  },
-  { "key": "ctrl+w k",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   // Search
   {
