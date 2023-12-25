@@ -120,7 +120,7 @@
   {
     "key": "ctrl+h",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    "when": "!editorFocus"
   },
   // Search
   {
