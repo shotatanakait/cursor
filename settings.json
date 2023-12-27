@@ -46,7 +46,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Zen
-  "window.zoomLevel": 1,
   "zenMode.centerLayout": false,
   "zenMode.hideStatusBar": false,
   "zenMode.showTabs": "single",
@@ -58,22 +57,6 @@
   "vim.hlsearch": true,
   "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindings": [
-    {
-      "before": ["<leader>", "w"],
-      "commands": [":w!"]
-    },
-    {
-      "before": ["<leader>", "q"],
-      "commands": [":q!"]
-    },
-    {
-      "before": ["<leader>", "x"],
-      "commands": [":x!"]
-    },
-    {
-      "before": ["<C-a>"],
-      "after": ["g", "g", "V", "G"]
-    },
     {
       // "before": ["<leader>", "k"],
       "before": ["<C-i>"],
