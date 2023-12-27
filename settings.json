@@ -58,7 +58,6 @@
   "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindings": [
     {
-      // "before": ["<leader>", "k"],
       "before": ["<C-i>"],
       "commands": ["editor.action.showHover"]
     },
@@ -73,10 +72,6 @@
     {
       "before": ["<leader>", "c", "c"],
       "commands": ["editor.action.quickFix"]
-    },
-    {
-      "before": ["<leader>", "i"],
-      "commands": ["extension.toggleBool"]
     }
   ],
   // Unsave
