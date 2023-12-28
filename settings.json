@@ -1,7 +1,7 @@
 {
   // Basic
   "workbench.sideBar.location": "right",
-  "editor.lineNumbers": "relative",
+  "workbench.lineNumbers": "on",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Everforest Dark",
   "editor.minimap.enabled": false,
@@ -76,10 +76,15 @@
   ],
   // Unsave
   "unsaved-files.viewOnExplorer.enabled": true,
-  // Git
+  // Color
   "workbench.colorCustomizations": {
+    // -- Git
     "editorGutter.addedBackground": "#60aa60",
     "editorGutter.modifiedBackground": "#668cdd",
-    "editorGutter.deletedBackground": "#ee3300"
+    "editorGutter.deletedBackground": "#ee3300",
+    // -- Active line
+    "editorLineNumber.activeForeground": "#aaeecc",
+    // -- Other line
+    "editorLineNumber.foreground": "#335533"
   }
 }
