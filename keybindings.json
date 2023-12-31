@@ -70,6 +70,12 @@
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
+  // Maximize terminal
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
   // Show hover
   // {
   //   "key": "ctrl+k ctrl+i",
