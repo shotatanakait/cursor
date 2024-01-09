@@ -50,7 +50,7 @@
   },
   // Toggle terminal
   {
-    "key": "ctrl+shift+[Equal]",
+    "key": "ctrl+shift+t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
