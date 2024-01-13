@@ -51,6 +51,15 @@
   "zenMode.showTabs": "single",
   "zenMode.hideLineNumbers": false,
   // Vim
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#2d353b", "#9aa79d"],
+  "vim.statusBarColors.insert": ["#BF616A", "#dddddd"],
+  "vim.statusBarColors.visual": ["#B48EAD", "#2d353b"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#2d353b"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#2d353b"],
+  "vim.statusBarColors.replace": ["#D08770", "#2d353b"],
+  "vim.statusBarColors.commandlineinprogress": ["#007ACC", "#dddddd"],
+  "vim.statusBarColors.searchinprogressmode": ["#007ACC", "#dddddd"],
   "workbench.settings.editor": "json",
   "vim.leader": "<space>",
   "vim.foldfix": true,
@@ -82,7 +91,12 @@
     "editorGutter.modifiedBackground": "#668cdd",
     "editorGutter.deletedBackground": "#ee3300",
     "editorLineNumber.activeForeground": "#aaeecc",
-    "editorLineNumber.foreground": "#335533"
+    "editorLineNumber.foreground": "#335533",
+    "statusBar.background": "#2d353b",
+    "statusBar.noFolderBackground": "#2d353b",
+    "statusBar.debuggingBackground": "#2d353b",
+    "statusBar.foreground": "#9aa79d",
+    "statusBar.debuggingForeground": "#9aa79d"
   },
   "window.zoomLevel": 1
 }
