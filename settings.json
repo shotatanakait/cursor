@@ -71,6 +71,10 @@
       "commands": ["editor.action.showHover"]
     },
     {
+      "before": ["<leader>", "g"],
+      "commands": ["lazygit.openLazygit"]
+    },
+    {
       "before": ["]", "d"],
       "commands": ["editor.action.marker.next"]
     },
