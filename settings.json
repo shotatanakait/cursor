@@ -78,13 +78,10 @@
   "unsaved-files.viewOnExplorer.enabled": true,
   // Color
   "workbench.colorCustomizations": {
-    // -- Git
     "editorGutter.addedBackground": "#60aa60",
     "editorGutter.modifiedBackground": "#668cdd",
     "editorGutter.deletedBackground": "#ee3300",
-    // -- Active line
     "editorLineNumber.activeForeground": "#aaeecc",
-    // -- Other line
     "editorLineNumber.foreground": "#335533"
   },
   "window.zoomLevel": 1
