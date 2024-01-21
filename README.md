@@ -26,13 +26,9 @@ unlink ~/Library/Application\ Support/Cursor/User/keybindings.json
 ## Used plugins
 
 #### Appearance
-- https://github.com/sainnhe/everforest-vscode
 - https://github.com/wraith13/unsaved-files-vscode
 - https://github.com/PKief/vscode-material-icon-theme
+- https://github.com/usernamehw/vscode-error-lens
 
 #### Vim
 - https://github.com/VSCodeVim/Vim
-
-#### Other
-- https://github.com/usernamehw/vscode-error-lens
-- https://github.com/silesky/vscode-toggle-bool
