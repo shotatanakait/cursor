@@ -2,8 +2,9 @@
   // Basic
   "workbench.sideBar.location": "right",
   "workbench.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Default Dark Modern",
   "editor.minimap.enabled": false,
   "editor.guides.bracketPairs": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -69,6 +70,10 @@
     {
       "before": ["<C-i>"],
       "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["lazygit.openLazygit"]
     },
     {
       "before": ["]", "d"],
