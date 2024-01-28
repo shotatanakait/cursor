@@ -52,7 +52,7 @@
   "zenMode.showTabs": "single",
   "zenMode.hideLineNumbers": false,
   // Vim
-  "vim.statusBarColorControl": true,
+  "vim.statusBarColorControl": false,
   "vim.statusBarColors.normal": ["#2d353b", "#9aa79d"],
   "vim.statusBarColors.insert": ["#BF616A", "#dddddd"],
   "vim.statusBarColors.visual": ["#B48EAD", "#2d353b"],
