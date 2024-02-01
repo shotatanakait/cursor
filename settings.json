@@ -92,16 +92,13 @@
   "unsaved-files.viewOnExplorer.enabled": true,
   // Color
   "workbench.colorCustomizations": {
+    // Git signs
     "editorGutter.addedBackground": "#60aa60",
     "editorGutter.modifiedBackground": "#668cdd",
     "editorGutter.deletedBackground": "#ee3300",
+    // Line number
     "editorLineNumber.activeForeground": "#aaeecc",
-    "editorLineNumber.foreground": "#335533",
-    "statusBar.background": "#2d353b",
-    "statusBar.noFolderBackground": "#2d353b",
-    "statusBar.debuggingBackground": "#2d353b",
-    "statusBar.foreground": "#9aa79d",
-    "statusBar.debuggingForeground": "#9aa79d"
+    "editorLineNumber.foreground": "#335533"
   },
   "window.zoomLevel": 1
 }
