@@ -112,11 +112,7 @@
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
-  {
-    "key": "ctrl+shift+g",
-    "command": "extension.vim_ctrl+g",
-    "when": "editorTextFocus && vim.active && vim.use<C-g> && !inDebugRepl"
-  },
+  // Move to specified row number
   {
     "key": "ctrl+g",
     "command": "-extension.vim_ctrl+g",
