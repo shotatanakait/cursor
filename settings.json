@@ -12,6 +12,7 @@
   "extensions.ignoreRecommendations": false,
   "editor.suggest.insertMode": "replace",
   "explorer.confirmDelete": false,
+  "editor.stickyScroll.enabled": true,
   // Yank
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(153, 204, 51, 0.3)",
